@@ -3,8 +3,8 @@
 from max.client import Client
 
 if __name__ == '__main__':
-    client = Client('PUY_MY_API_KEY_HERE', 'PUY_MY_API_SECRET_HERE')
-
+    client = Client('gr2d2nFKYXT9scljQXr3A6rlNnGamxx8uc7SUoId',
+                    'i8X0EkjxycqL0BBlwej9iRexlPmicbxHxDDXfk9b')
     try:
         ''' Public (Read) '''
         result = client.get_public_all_currencies()
